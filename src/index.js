@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './index.css';
-import AppNav from './AppNav';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppNav/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );

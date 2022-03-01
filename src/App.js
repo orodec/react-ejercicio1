@@ -5,6 +5,8 @@ import { Clock, ClockFuntion } from "./components/Reloj";
 import Allcycles from "./components/Ciclos";
 import Colorsquare from "./components/colorSquare";
 import{ BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Fetchexample from './components/FetchExample'
+import Axioschuck from './components/AxiosChuck.jsx'
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         {/* <Clock></Clock> */}
         {/* <ClockFuntion></ClockFuntion> */}
         {/* <Allcycles></Allcycles> */}
+        {/* <Fetchexample></Fetchexample> */}
+        <Axioschuck></Axioschuck>
       </header>
     </div>
   );
